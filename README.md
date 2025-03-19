@@ -19,6 +19,7 @@ The enemy has **random attack behavior**, sometimes using a strong attack. The g
 ---
 
 ## 📂 Project Structure
+```sh
 BattleClash/
 │── src/
 │   ├── battleclash/
@@ -27,7 +28,7 @@ BattleClash/
 │   │   ├── Enemy.java       # Enemy class
 │   │   ├── Game.java        # Game loop and logic
 │── README.md                # Documentation
-
+```
 
 ---
 
