@@ -74,7 +74,7 @@ BattleClash/
 - [ ] Add multiple **enemy types** with different strengths.
 - [ ] Introduce **weapons and abilities** for the player.
 - [ ] Implement a **score or leveling system**.
-- [ ] Add a graphical user interface (**GUI**) using JavaFX or Swing.
+- [ ] Add a graphical user interface (**GUI**) 
 
 ---
 
