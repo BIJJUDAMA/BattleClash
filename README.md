@@ -37,11 +37,11 @@ BattleClash/
    - Open a terminal and navigate to the project folder.
    - Compile the Java files:
      ```sh
-     javac battleclash/*.java
+     javac -d bin src/battleclash/*.java
      ```
    - Run the game:
      ```sh
-     java battleclash.Game
+     java -cp bin battleclash.Game
      ```
 
 2️⃣ **Gameplay Instructions**
