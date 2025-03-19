@@ -35,7 +35,7 @@ BattleClash/
 ## 🎮 How to Play
 1️⃣ **Run the Game**
    - Open a terminal and navigate to the project folder.
-   - Compile the Java files:
+   - Compile the Java files (Optional since the bin folder has the compiled files provided already):
      ```sh
      javac -d bin src/battleclash/*.java
      ```
@@ -70,11 +70,14 @@ BattleClash/
 
 ---
 
-## 🔥 Future Improvements
-- [ ] Add multiple **enemy types** with different strengths.
-- [ ] Introduce **weapons and abilities** for the player.
-- [ ] Implement a **score or leveling system**.
-- [ ] Add a graphical user interface (**GUI**) 
+## 🔥 Future Improvements  
+- [ ] Introduce **multiple enemy types** with unique strengths and abilities.  
+- [ ] Implement a **stamina system** to limit the use of strong attacks.  
+- [ ] Add **weapons and special abilities** to enhance gameplay variety.  
+- [ ] Develop a **scoring and leveling system** for player progression.  
+- [ ] Include a **turn timer**, skipping the turn if the player exceeds the limit.  
+- [ ] Add **difficulty levels** (Easy, Medium, Hard) for a more customized experience.  
+- [ ] Enhance the game with a **graphical user interface (GUI)** for improved visuals and accessibility.
 
 ---
 
