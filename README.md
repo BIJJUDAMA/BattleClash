@@ -130,8 +130,6 @@ The Dark Lord has **randomized attack patterns**. On its turn, it may:
 
 ---
 
----
-
 ## 🔥 Future Improvements  
 - [ ] Introduce **multiple enemy types** with unique strengths and abilities.  
 - [ ] Implement a **stamina system** to limit the use of strong attacks.  
