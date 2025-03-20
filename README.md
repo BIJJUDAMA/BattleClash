@@ -35,7 +35,7 @@ BattleClash/
 ## 🎮 How to Play
 1️⃣ **Run the Game**
    - Open a terminal and navigate to the project folder.
-   - Compile the Java files (Optional since the bin folder has the compiled files provided already):
+   - Compile the Java files 
      ```sh
      javac -d bin src/battleclash/*.java
      ```
