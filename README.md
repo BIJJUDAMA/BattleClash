@@ -78,9 +78,9 @@ BattleClash/
 
 #### 🔹 Available Actions
 1. **Normal Attack**  
-   - Deals **20 damage** to the enemy.
+   - Deals **15 damage** to the enemy.
 2. **Strong Attack**  
-   - Deals **40 damage**, but **takes up more energy**.
+   - Deals **30 damage**, but **takes up more energy**.
 3. **Heal**  
    - Restores **30 HP** (but cannot exceed **100 HP**).
    - Can only be used **3 times per game**.
@@ -100,15 +100,15 @@ BattleClash/
 #### 🔹 Enemy AI Behavior
 The Dark Lord has **randomized attack patterns**. On its turn, it may:
 1. **Normal Attack** (80% chance)  
-   - Deals **15 damage**.
+   - Deals **20 damage**.
 2. **Strong Attack** (15% chance)  
-   - Deals **30 damage**.
+   - Deals **40 damage**.
 3. **Deadly Strike** (5% chance)  
    - **Removes 90% of the player’s health in one hit!**
-4. **Attack Debuff** (15% chance)  
+4. **Attack Debuff** (30% chance)  
    - Weakens **player’s attack power** to **half** for **1-4 turns**.
-5. **Regeneration Ability** (10% chance)  
-   - If its **HP drops below 10% (12 HP)**, the Dark Lord can **heal back to 80% HP (90 HP)**.
+5. **Regeneration Ability** (30% chance)  
+   - If its **HP drops below 10% (12 HP)**, the Dark Lord can **heal back to 90 HP**.
 
 ---
 
@@ -126,7 +126,7 @@ The Dark Lord has **randomized attack patterns**. On its turn, it may:
 - The **player can only heal 3 times per game**.
 
 #### ✅ Dark Lord’s Regeneration
-- When the **Dark Lord’s HP drops below 12**, it has a **10% chance to restore 90 HP**.
+- When the **Dark Lord’s HP drops below 12**, it has a **30% chance to restore 90 HP**.
 
 ---
 
