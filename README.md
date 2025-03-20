@@ -1,4 +1,4 @@
-# Battle Clash
+# ⚔️ Battle Clash
 
 ## 📌 Project Overview
 "Battle Clash: Fight for Survival" is a simple **turn-based battle game** built in Java using **Object-Oriented Programming (OOP) principles**. In this game, the player faces off against an enemy in a duel where both take turns attacking. The player has the option to:
