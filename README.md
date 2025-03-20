@@ -62,11 +62,73 @@ BattleClash/
 - **Polymorphism**: `attack()` is overridden differently for Player and Enemy.
 - **Abstraction**: The `Character` class is abstract to enforce implementation.
 
-### ✅ Game Mechanics
-- **Turn-based combat**
-- **Randomized enemy behavior** (Enemy can use strong attacks randomly)
-- **Healing system** (Limited number of heals)
-- **Dynamic health updates**
+## ✅ Game Mechanics
+
+### 🎮 Player Mechanics
+
+#### 🔹 Player Stats
+| **Attribute** | **Value** |
+|--------------|----------|
+| Max Health | 100 |
+| Normal Attack Power | 15 |
+| Strong Attack Power | 30 |
+| Defense | 5 |
+| Heal | Restores **30 HP** (Max health cap: 100) |
+| Heal Uses | **3 times per game** |
+
+#### 🔹 Available Actions
+1. **Normal Attack**  
+   - Deals **20 damage** to the enemy.
+2. **Strong Attack**  
+   - Deals **40 damage**, but **takes up more energy**.
+3. **Heal**  
+   - Restores **30 HP** (but cannot exceed **100 HP**).
+   - Can only be used **3 times per game**.
+
+---
+
+### 👿 Enemy (Dark Lord) Mechanics
+
+#### 🔹 Enemy Stats
+| **Attribute** | **Value** |
+|--------------|----------|
+| Max Health | 120 |
+| Normal Attack Power | 20 |
+| Strong Attack Power | 40 |
+| Defense | 3 |
+
+#### 🔹 Enemy AI Behavior
+The Dark Lord has **randomized attack patterns**. On its turn, it may:
+1. **Normal Attack** (80% chance)  
+   - Deals **15 damage**.
+2. **Strong Attack** (15% chance)  
+   - Deals **30 damage**.
+3. **Deadly Strike** (5% chance)  
+   - **Removes 90% of the player’s health in one hit!**
+4. **Attack Debuff** (15% chance)  
+   - Weakens **player’s attack power** to **half** for **1-4 turns**.
+5. **Regeneration Ability** (10% chance)  
+   - If its **HP drops below 10% (12 HP)**, the Dark Lord can **heal back to 80% HP (90 HP)**.
+
+---
+
+### 🔐 Special Game Rules
+#### ✅ Health Cap
+- **Player health is capped at 100.** Even if the player heals, it cannot exceed this limit.
+
+#### ✅ Attack Debuff
+- If the Dark Lord **applies a debuff**, the player’s attack power **is cut in half** for **1 to 4 turns**.
+
+#### ✅ Deadly Strike
+- If the Dark Lord **triggers a Deadly Strike**, the player’s health is **immediately reduced by 90%**.
+
+#### ✅ Healing Restriction
+- The **player can only heal 3 times per game**.
+
+#### ✅ Dark Lord’s Regeneration
+- When the **Dark Lord’s HP drops below 12**, it has a **10% chance to restore 90 HP**.
+
+---
 
 ---
 
